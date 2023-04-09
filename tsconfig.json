@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // "outFile": "./dist/",
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "baseUrl": "src",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    // "paths": {
+    //   "@app/*": ["./src/*"]
+    // },
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "alwaysStrict": true,
+    // "incremental": false,
+    // "listEmittedFiles": true,
+    // "newLine": "LF",
+
+    "strict": true,
+    "noEmit": true
+  },
+  "include": ["src", "global.d.ts"]
+}

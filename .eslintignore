@@ -1,0 +1,12 @@
+.idea
+node_modules
+build
+public
+coverage
+environments
+src/packages/services/generated-api
+
+*test.*
+*.js*
+*d.ts
+!.eslintrc.js

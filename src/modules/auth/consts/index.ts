@@ -1,0 +1,1 @@
+export { strongRegexForPassword } from './strongRegexForPassword'
